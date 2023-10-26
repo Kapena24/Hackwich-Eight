@@ -19,7 +19,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        myLabel.text = "My Segmented Control"
+    //myLabel.text = "My Segmented Control"
+        myLabel.text = ""
+segmentedControl.selectedSegmentIndex = -1
+
     }
 
     @IBAction func segmentedControlPressed(_ sender: Any) {
